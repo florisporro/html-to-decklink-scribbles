@@ -1,0 +1,21 @@
+{
+  "name": "html-renderer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx electron index.js",
+    "dev": "nodemon -x 'npx electron index.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "atem-connection": "^1.3.0",
+    "electron": "^7.1.1",
+    "grandiose": "git+https://github.com/jensstigaard/grandiose.git",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {},
+  "description": ""
+}
